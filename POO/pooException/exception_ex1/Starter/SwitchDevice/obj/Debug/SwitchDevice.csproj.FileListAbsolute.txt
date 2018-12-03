@@ -1,0 +1,6 @@
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\SwitchDevice\bin\Debug\SwitchDevice.dll
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\SwitchDevice\bin\Debug\SwitchDevice.pdb
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\SwitchDevice\obj\Debug\SwitchDevice.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\SwitchDevice\obj\Debug\SwitchDevice.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\SwitchDevice\obj\Debug\SwitchDevice.dll
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\SwitchDevice\obj\Debug\SwitchDevice.pdb

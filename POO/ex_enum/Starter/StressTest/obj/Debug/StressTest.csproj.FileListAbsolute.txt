@@ -1,0 +1,6 @@
+C:\Users\Administrateur\Desktop\ex_enum\Starter\StressTest\bin\Debug\StressTest.dll
+C:\Users\Administrateur\Desktop\ex_enum\Starter\StressTest\bin\Debug\StressTest.pdb
+C:\Users\Administrateur\Desktop\ex_enum\Starter\StressTest\obj\Debug\StressTest.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\ex_enum\Starter\StressTest\obj\Debug\StressTest.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\ex_enum\Starter\StressTest\obj\Debug\StressTest.dll
+C:\Users\Administrateur\Desktop\ex_enum\Starter\StressTest\obj\Debug\StressTest.pdb

@@ -1,0 +1,50 @@
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Form1.resources
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Properties.Resources.resources
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csproj.GenerateResource.Cache
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\bin\Debug\AccessEtCSharp.exe
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\bin\Debug\AccessEtCSharp.pdb
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.exe
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.pdb
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csprojResolveAssemblyReference.cache
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.exe
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.pdb
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\bin\Debug\AccessEtCSharp.exe
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\bin\Debug\AccessEtCSharp.pdb
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csprojResolveAssemblyReference.cache
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Form1.resources
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Properties.Resources.resources
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csproj.GenerateResource.Cache
+C:\Users\ABeney\Desktop\_____FC_C# et base de données\C# & Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.exe
+C:\Users\ABeney\Desktop\_____FC_C# et base de données\C# & Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.pdb
+C:\Users\ABeney\Desktop\_____FC_C# et base de données\C# & Access, premiers pas\AccessEtCSharp\bin\Debug\AccessEtCSharp.exe
+C:\Users\ABeney\Desktop\_____FC_C# et base de données\C# & Access, premiers pas\AccessEtCSharp\bin\Debug\AccessEtCSharp.pdb
+C:\Users\ABeney\Desktop\_____FC_C# et base de données\C# & Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csprojResolveAssemblyReference.cache
+C:\Users\ABeney\Desktop\_____FC_C# et base de données\C# & Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Properties.Resources.resources
+C:\Users\ABeney\Desktop\_____FC_C# et base de données\C# & Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csproj.GenerateResource.Cache
+C:\Users\ABeney\Desktop\_____FC_C# et base de données\C# & Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.frmCSarpEtAcess.resources
+G:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.exe
+G:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.pdb
+G:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\bin\Debug\AccessEtCSharp.exe
+G:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\bin\Debug\AccessEtCSharp.pdb
+G:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csprojResolveAssemblyReference.cache
+G:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.frmCSarpEtAcess.resources
+G:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Properties.Resources.resources
+G:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csproj.GenerateResource.Cache
+H:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csprojAssemblyReference.cache
+H:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.frmCSarpEtAcess.resources
+H:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Properties.Resources.resources
+H:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csproj.GenerateResource.cache
+H:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csproj.CoreCompileInputs.cache
+H:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.exe
+H:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.pdb
+H:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\bin\Debug\AccessEtCSharp.exe
+H:\Cours2017_2018\T1_BAD\C_BD\C# Access\C# & Access, premiers pas - VIDE\AccessEtCSharp\bin\Debug\AccessEtCSharp.pdb
+C:\Users\Administrateur\Desktop\C#  Access, premiers pas - VIDE\C# & Access, premiers pas - VIDE\AccessEtCSharp\bin\Debug\AccessEtCSharp.exe
+C:\Users\Administrateur\Desktop\C#  Access, premiers pas - VIDE\C# & Access, premiers pas - VIDE\AccessEtCSharp\bin\Debug\AccessEtCSharp.pdb
+C:\Users\Administrateur\Desktop\C#  Access, premiers pas - VIDE\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\C#  Access, premiers pas - VIDE\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.frmCSarpEtAcess.resources
+C:\Users\Administrateur\Desktop\C#  Access, premiers pas - VIDE\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\C#  Access, premiers pas - VIDE\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csproj.GenerateResource.cache
+C:\Users\Administrateur\Desktop\C#  Access, premiers pas - VIDE\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\C#  Access, premiers pas - VIDE\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.exe
+C:\Users\Administrateur\Desktop\C#  Access, premiers pas - VIDE\C# & Access, premiers pas - VIDE\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.pdb

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Archery</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body{
+				overflow: hidden;
+				user-select: none;
+				text-align:center;				
+			}
+			
+			/* Le div main est une boite qui contient le jeu */
+			#main{
+				width: 1200px;
+				height: 800px;
+				margin: auto;
+				border: 1px solid black;
+				overflow: hidden;				
+			}	
+
+			/* La boite est dans le div main en relatif pour cacher les éléments qui sortent de main */
+			#box{
+				position: relative;
+				left: 0px;
+				top: 0px;
+				width: 1200px;
+				height: 800px;				
+				background: linear-gradient(to bottom, #ffffff 0%,#bfe8f9 68%,#9fd8ef 72%,#2cf200 75%,#4ead1f 100%); 
+				background-size: cover;	
+				overflow: hidden;
+				background-position: 0px 0px;
+			}				
+			
+			/* L'homme est un div avec une image en fond */
+			#man{
+				position: absolute;
+				width: 35px;
+				height: 80px;
+				background-image: url("man.png");
+				background-size: 100% 100%;
+				left: 50px;
+				top: 550px;
+			}
+			
+			/* L'arc est contenu dans l'homme */
+			#bow{
+				position: absolute;
+				width: 70px;
+				height: 70px;
+				background-image: url("bow.png");				
+				background-size: 100% 100%;
+				left: -8px;
+				top: -18px;
+				transform-origin: 36% 50%;
+				z-index: 10;
+			}
+			
+			#arrow{
+				width: 40px;
+				height: 2px;
+				background-color: black;
+				transform-origin: 0% 0%;
+				position: absolute;
+				top: 565px;
+				left: 70px;
+				z-index: 20;
+			}			
+			
+			#princess{
+				width: 50px;
+				height: 100px;				
+				transform-origin: 50% 50%;
+				background-size: 100% 100%;
+				background-image: url('princess.png');
+				position: absolute;
+				top: 525px;
+				left: 1000px;
+				z-index: 20;
+			}
+			
+			#apple{
+				width: 20px;
+				height: 20px;				
+				transform-origin: 50% 50%;
+				background-size: 100% 100%;
+				background-image: url('apple.png');
+				position: absolute;
+				top: 507px;
+				left: 1010px;
+				z-index: 20;
+			}
+		</style>
+	</head>
+	<body>			
+		<div id="main">
+			<div id="box" onmousemove="movebow(event)" onmousedown="loadarrow()" onmouseup="firearrow()">
+				<div id="man">
+					<div id="bow"></div>						
+				</div>						
+				<div id="arrow" style="transform: rotate(0deg); left: 66px; top: 562px;"></div>
+				<div id="princess"></div>
+				<div id="apple"></div>
+				<p id="X"></p>
+				<p id="Y"></p>
+			</div>
+		</div>		
+	</body>		
+	<script>
+		var positionY;
+		var speedY;	
+		var positionX;
+		var speedX;
+		var aim;
+		var loaded = true;	
+		function movebow(params) {
+			if (loaded) {
+				positionX = params.pageX;
+				positionY = params.pageY;
+				aim = (Math.atan2(positionY, positionX)*180/Math.PI);
+				document.getElementById("bow").style.transform = "rotate("+ aim +"deg)";
+				document.getElementById("arrow").style.transform = "rotate("+ aim +"deg)";
+			}
+		}
+		function loadarrow() {
+			
+		}
+		function firearrow() {
+			if (loaded) {
+				loaded = false;
+				interval = setInterval(fly, 10);
+			}
+		}
+		function fly() {
+			positionAX = parseInt(arrow.offsetLeft);
+			positionAY = parseInt(arrow.offsetTop);
+			speedX = Math.cos(aim)*positionAX;
+			speedY = Math.sin(aim)*positionAY;
+			positionAX = positionAX + speedX/100;
+			positionAY = positionAY + speedY/100;
+			arrow.style.left = (positionAX) +"px";arrow.style.top = (positionAY) +"px";
+
+			rotation = rotate_val(document.getElementById("arrow").style.transform);
+			arrow.style.transform = "rotate("+ (rotation+0.4) +"deg)";
+			speedX += 0.1;speedY += 0.1;
+			document.getElementById("X").innerHTML = positionAX;
+			document.getElementById("Y").innerHTML = positionAY;
+		}
+
+		function rotate_val(params) {
+			//var str = "rotate(25deg)";
+			var str = params;
+    		var str1 = str.split("(");
+    		var res = str1[1].split("d");
+			return parseInt(res[0]);
+		}
+	</script>
+</html>
+		

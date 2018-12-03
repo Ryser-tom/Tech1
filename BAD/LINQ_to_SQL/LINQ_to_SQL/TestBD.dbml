@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TestBD" Class="TestBDDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\TestBD.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="LINQ_to_SQL.Properties.Settings" SettingsPropertyName="TestBDConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.T_Clients" Member="T_Clients">
+    <Type Name="T_Clients">
+      <Column Name="IdClient" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nom" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Prenom" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Adresse" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Localite" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CodePostal" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Association Name="T_Clients_T_Commandes" Member="T_Commandes" ThisKey="IdClient" OtherKey="IdClient" Type="T_Commandes" />
+    </Type>
+  </Table>
+  <Table Name="dbo.T_Commandes" Member="T_Commandes">
+    <Type Name="T_Commandes">
+      <Column Name="IdCommande" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DateCommande" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Reference" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="IdClient" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="T_Clients_T_Commandes" Member="T_Clients" ThisKey="IdClient" OtherKey="IdClient" Type="T_Clients" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

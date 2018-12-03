@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Casino</title>
+   <meta charset="utf-8" />   
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="jq_ajax()">
+	<div><h1>Casino</h1></div><br/>
+	<div id="div1" class="panel"><img id="image1" onload="valign(this)" onresize="valign(this)"/></div>
+	<div id="div2" class="panel"><img id="image2" onload="valign(this)" onresize="valign(this)"/></div>
+	<div id="div3" class="panel"><img id="image3" onload="valign(this)" onresize="valign(this)"/></div>
+	<div id="interface">
+		<input type="button" value="Jouer" onclick="tirage()">		
+		<h2 id="montant"></h2>
+		<h2 id="resultat"></h2>
+	</div>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="ajax.js"></script>
+</body>
+</html>
+

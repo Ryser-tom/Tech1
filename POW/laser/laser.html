@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Laser</title>
+	<meta charset="UTF-8"/>
+	<style>
+		body{
+			background-color:lightblue;
+			overflow: hidden;
+			margin: auto;
+			width: 640px;
+			padding-top: 100px;
+		}
+		
+		.laser{
+			width: 4px;
+			height: 300px;
+			position: absolute;
+			background-color: red;
+			transform-origin: 2px 2px;
+		}
+		
+		#laser1{
+			left: 833px;
+			top: 213px;	
+			transform: rotate(0deg);
+		}
+		
+		#laser2{
+			left: 873px;
+			top: 211px;
+			transform: rotate(0deg);
+		}
+	</style>
+  </head>
+  <body onkeydown="presser(event)" onkeyup="relacher(event)" id="body">	
+	<img src="drdenfer.jpg" id="drdenfer"/> 
+	<div class="laser" id="laser1"></div>
+	<div class="laser" id="laser2"></div>
+	<script>
+		var i = 0;
+		var speed = 0;
+		var laser1 = document.getElementById("laser1");
+		var laser2 = document.getElementById("laser2");
+		interval = setInterval(rotate, 10);
+
+		function presser(event){
+			if (event.code == "ArrowRight") {
+				speed--;
+			}else if(event.code == "ArrowLeft"){
+				speed++;
+			}
+		}
+		function relacher(event) {
+				if (event.code == "ArrowRight") {
+				slow = setInterval(function(){if(speed == 0){clearInterval(slow);}else{ speed = speed + 0.5;}}, 100);
+			}else if(event.code == "ArrowLeft"){
+				slow = setInterval(function(){if(speed == 0){clearInterval(slow);}else{ speed = speed - 0.5;}}, 100);
+			}
+		}
+		function rotate() {
+			i=i+speed;
+			laser1.style.transform = "rotate("+ i +"deg)";
+			laser2.style.transform = "rotate("+ i +"deg)";
+		}
+    </script>    
+	<h4 align="center">Appuyez sur <- ou -> pour tourner dans le sens voulu</h4>	
+  </body>
+</html>
+
+
+<!--
+if(speedDOWN) {
+	clearInterval(speedDOWN);
+}
+speedUP = setInterval(function(){
+		if (event.code == "ArrowRight") {
+			i--;
+		}else if(event.code == "ArrowLeft"){
+			i++;
+		}
+			laser1.style.transform = "rotate("+ i +"deg)";
+			laser2.style.transform = "rotate("+ i +"deg)";
+}, 100);
+
+-->

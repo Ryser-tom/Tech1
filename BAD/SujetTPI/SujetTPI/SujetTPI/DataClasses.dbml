@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SubjectBD" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\SubjectBD.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="SujetTPI.Properties.Settings" SettingsPropertyName="SubjectBDConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.student" Member="student">
+    <Type Name="student">
+      <Column Name="IdStudent" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nameStudent" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="firstNameStudent" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="telStudent" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="emailStudent" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="idTeacher" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idSubject" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="subject_student" Member="subject" ThisKey="idSubject" OtherKey="IdSubject" Type="subject" IsForeignKey="true" />
+      <Association Name="teacher_student" Member="teacher" ThisKey="idTeacher" OtherKey="IdTeacher" Type="teacher" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.type" Member="type">
+    <Type Name="type">
+      <Column Name="IdType" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nameType" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="type_subject" Member="subject" ThisKey="IdType" OtherKey="idType" Type="subject" />
+    </Type>
+  </Table>
+  <Table Name="dbo.subject" Member="subject">
+    <Type Name="subject">
+      <Column Name="IdSubject" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="nameSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="dateSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="placeSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="titleSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="environnementSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="objectiveSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="descriptionSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="conceptualSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="stepsInventorySubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="equipmentSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="deliverableSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="mesurableSubject" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="idCreator" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="subject_student" Member="student" ThisKey="IdSubject" OtherKey="idSubject" Type="student" />
+      <Association Name="type_subject" Member="type" ThisKey="idType" OtherKey="IdType" Type="type" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.teacher" Member="teacher">
+    <Type Name="teacher">
+      <Column Name="IdTeacher" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nameTeacher" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="firstNameTeacher" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="telTeacher" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="emailTeacher" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="nbStudentTeacher" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="teacher_student" Member="student" ThisKey="IdTeacher" OtherKey="idTeacher" Type="student" />
+    </Type>
+  </Table>
+</Database>

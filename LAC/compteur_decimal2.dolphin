@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Dolphin>
+  <Version>1.1.3</Version>
+  <ProcessorName>PSI30</ProcessorName>
+  <ProcessorIPS>10000</ProcessorIPS>
+  <ProcessorStep>C</ProcessorStep>
+  <ProcessorInto>O</ProcessorInto>
+  <PanelMode>Code</PanelMode>
+  <DisplayBitmap>N</DisplayBitmap>
+  <DisplayTechno>CRT</DisplayTechno>
+  <KeyboardArrows>N</KeyboardArrows>
+  <MemoryData>000000540000510301080C005400015102DD00000113001FDD00000212002201080C005400025101000000DD00000212003501080C00DE010000DD0A0000130003DC00000000DE010001DD0A0001130003DC00000100DE010002DD0A0002130003DC000002130003DC000000DC000001DC000002010809100003</MemoryData>
+</Dolphin>

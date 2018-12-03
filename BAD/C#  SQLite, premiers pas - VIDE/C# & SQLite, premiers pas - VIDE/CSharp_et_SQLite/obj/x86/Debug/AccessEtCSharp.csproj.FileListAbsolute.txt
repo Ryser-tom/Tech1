@@ -1,0 +1,18 @@
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Form1.resources
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Properties.Resources.resources
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csproj.GenerateResource.Cache
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\bin\Debug\AccessEtCSharp.exe
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\bin\Debug\AccessEtCSharp.pdb
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.exe
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.pdb
+C:\Users\david\Desktop\tuto c#\AccessEtCSharp\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csprojResolveAssemblyReference.cache
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.exe
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.pdb
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\bin\Debug\AccessEtCSharp.exe
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\bin\Debug\AccessEtCSharp.pdb
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csprojResolveAssemblyReference.cache
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Form1.resources
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.Properties.Resources.resources
+C:\Users\ABeney\Downloads\TuTo C# Access, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.csproj.GenerateResource.Cache
+C:\Users\ABeney\Desktop\_____FC_C# et base de données\C# & SQLite, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.exe
+C:\Users\ABeney\Desktop\_____FC_C# et base de données\C# & SQLite, premiers pas\AccessEtCSharp\obj\x86\Debug\AccessEtCSharp.pdb

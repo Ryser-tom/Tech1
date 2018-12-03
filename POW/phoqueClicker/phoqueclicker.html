@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phoques clicker</title>
+	<style>
+		body{
+			background-color:white;
+		}
+
+		img{
+			width:300px;
+			height:300px;
+		}
+
+		#stuff img{
+			width:80px;
+			height:80px;
+		}
+	</style>
+  </head>
+  <body id="body">
+	<p>Taux de reproduction des phoques :<span id="reproduction">0</span></p>
+	<input type="button" value="Acheter une mini-piscine (10 phoques) T0.5" onclick="btn(this.value)"   />
+	<input type="button" value="Acheter une piscine (100 phoques) T6" onclick="btn(this.value)"         />
+	<input type="button" value="Acheter une grande piscine (1000 phoques) T70" onclick="btn(this.value)"/>
+	<input type="button" value="Acheter un ballon (5000 phoques) T380" onclick="btn(this.value)"        />
+	<input type="button" value="Acheter un seau (20000 phoques) T1600" onclick="btn(this.value)"        />
+	<input type="button" value="Acheter une dresseuse (100000 phoques) T8600" onclick="btn(this.value)" />
+	<p>Vous avez <span id="nbphoques">0</span> phoque(s)</p>
+	<img src="phoque.png" onclick="clicker()" />
+	<br/>
+	Votre materiel :
+	<div id="stuff">
+	</div>
+  </body>
+  <script>
+    setTimeout(timer, 1000);
+    var phoque = 0;
+    var reproduction = 0;
+    function timer(){
+      phoque += reproduction;
+      update();
+      setTimeout(timer, 1000);
+    }
+    function clicker(){
+      phoque++;
+      update();
+    }
+    function btn(value){
+      var array = value.\split(" ");
+      price = array[array.length - 3].replace('(', '');
+      if (phoque >= price) {
+        switch (price) {
+          case "10":
+            phoque -= price;
+            reproduction += 0.5;
+            document.getElementById("stuff").innerHTML +='<img src="10phoques.png"  />';
+            break;
+          case "100":
+            phoque -= price;
+            reproduction += 6;
+            document.getElementById("stuff").innerHTML +='<img src="100phoques.png"  />';
+            break;
+          case "1000":
+            phoque -= price;
+            reproduction += 70;
+            document.getElementById("stuff").innerHTML +='<img src="1000phoques.png"  />';
+            break;
+          case "5000":
+            phoque -= price;
+            reproduction += 380;
+            document.getElementById("stuff").innerHTML +='<img src="ballon.png"  />';
+            break;
+          case "20000":
+            phoque -= price;
+            reproduction += 1600;
+            document.getElementById("stuff").innerHTML +='<img src="seau.png"  />';
+            break;
+          case "100000":
+            phoque -= price;
+            reproduction += 8600;
+            document.getElementById("stuff").innerHTML +='<img src="dresseuse.png"  />';
+            break;
+          default:
+        }
+
+      }
+    }
+
+    function update(){
+      document.getElementById("nbphoques").innerHTML = Math.round(phoque);
+      document.getElementById("reproduction").innerHTML = reproduction;
+    }
+  </script>
+</html>

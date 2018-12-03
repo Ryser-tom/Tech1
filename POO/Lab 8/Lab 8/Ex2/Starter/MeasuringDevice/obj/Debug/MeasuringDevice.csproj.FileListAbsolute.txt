@@ -1,0 +1,9 @@
+C:\Users\Administrateur\Desktop\Lab 8\Lab 8\Ex2\Starter\MeasuringDevice\bin\Debug\MeasuringDevice.dll
+C:\Users\Administrateur\Desktop\Lab 8\Lab 8\Ex2\Starter\MeasuringDevice\bin\Debug\MeasuringDevice.pdb
+C:\Users\Administrateur\Desktop\Lab 8\Lab 8\Ex2\Starter\MeasuringDevice\bin\Debug\DeviceController.dll
+C:\Users\Administrateur\Desktop\Lab 8\Lab 8\Ex2\Starter\MeasuringDevice\bin\Debug\DeviceController.pdb
+C:\Users\Administrateur\Desktop\Lab 8\Lab 8\Ex2\Starter\MeasuringDevice\obj\Debug\MeasuringDevice.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\Lab 8\Lab 8\Ex2\Starter\MeasuringDevice\obj\Debug\MeasuringDevice.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\Lab 8\Lab 8\Ex2\Starter\MeasuringDevice\obj\Debug\MeasuringDevice.csproj.CopyComplete
+C:\Users\Administrateur\Desktop\Lab 8\Lab 8\Ex2\Starter\MeasuringDevice\obj\Debug\MeasuringDevice.dll
+C:\Users\Administrateur\Desktop\Lab 8\Lab 8\Ex2\Starter\MeasuringDevice\obj\Debug\MeasuringDevice.pdb

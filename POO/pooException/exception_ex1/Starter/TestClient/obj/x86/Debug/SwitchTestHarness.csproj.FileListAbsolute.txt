@@ -1,0 +1,16 @@
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\bin\Debug\TestClient.exe
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\bin\Debug\TestClient.pdb
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\bin\Debug\SwitchDevice.dll
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\bin\Debug\SwitchDevice.pdb
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\SwitchTestHarness.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\App.g.cs
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\TestClient_MarkupCompile.cache
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\TestClient.g.resources
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\TestClient.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\SwitchTestHarness.csproj.GenerateResource.cache
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\SwitchTestHarness.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\SwitchTestHarness.csproj.CopyComplete
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\TestClient.exe
+C:\Users\Administrateur\Desktop\pooException\exception_ex1\Starter\TestClient\obj\x86\Debug\TestClient.pdb

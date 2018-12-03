@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FlappyGobelin</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			#wall{
+				width: 1024px;
+				height: 768px;
+				margin: auto;
+				background: url('sky.png') center center fixed;
+				background-size: cover; /* le fond d'écran s'ajuste à la taille du navigateur */
+				overflow: hidden; /* évite d'avoir les barres autour du navigateur */
+				user-select: none; /* désactive le highlight des images quand on clique sur l'écran */
+				font-family: Consolas,Arial,Tahoma;
+			}
+			
+			#gobelin{
+				height: 8%;
+				position: absolute;
+				background-image: url("gobelin_jetpack.png");
+				background-size: 100% 100%;
+				z-index: 5;
+			}					
+			
+			#beam{
+				height: 40%;
+				width: 150%;
+				position: relative;
+				left: -112%;
+				top: 82%;
+				background-image: url("beam.png");
+				background-size: 100% 100%;
+				transform: rotate(-45deg);
+				opacity: 0;
+				z-index: 10;
+			}
+			
+			#restartMsg{
+				margin-left: 350px;
+				margin-top: 200px;
+				border: 1px solid black;
+				border-radius: 10px;
+				width: 300px;
+				text-align: center;
+				padding: 10px;
+				background: linear-gradient(#DDDDDD, #BBBBBB);
+				display: none;
+				z-index: 1000;
+				position: relative;
+			}
+			
+			#restartMsg input{
+				padding: 8px 28px 8px 28px;
+				border-radius: 5px;				
+			}
+			
+			.mur{
+				background-image: url('brick_wall.jpg');
+				position: absolute;	
+				background-size: cover;	
+				z-index: 1;				
+			}
+		</style>
+	</head>
+	<body id="wall" onkeydown="jet_pack(event.keyCode)">	
+		<div id="gobelin"><div id="beam"></div></div>
+		<div id="obstacles"></div>
+		<div id="restartMsg">
+			<h1>Game Over</h1>
+			<input type="button" value="Restart" onclick="recommencer()"/>
+		</div>
+	</body>		
+	<script>
+		gobelin.style.width = "27px";
+		gobelin.style.top = "50px";
+		wall.style.backgroundPositionX = 5 + "px"
+		DEAD = false;
+		speed = 0;
+		interval = setInterval(moving_background, 10);
+
+		function is_goblin_dead(gobelin_positionY) {
+			if (gobelin_positionY+74 > window.innerHeight) {
+				//goblin is dead
+				DEAD = true;
+			}
+		}
+		function falling(gobelin_positionY) {
+			if (speed<4) {
+			speed += 0.1;
+			}
+			gobelin.style.top = gobelin_positionY + speed + "px";
+		}
+		function show_message_death() {
+			restartMsg.style = "display : block";
+		}
+		function jet_pack(key) {
+			if (key == 32 && !DEAD) {
+				beam.style = "opacity: 100"
+				beam_timer = setInterval(beam_powerAnimation, 10);
+				speed = -3;
+			}
+		}
+		function beam_powerAnimation() {
+			if (beam.style.opacity > 0) {
+				beam.style.opacity -= 1;
+			}else{
+				clearInterval(beam_timer);
+			}
+		}
+
+		function moving_background() {
+			if (!DEAD) {
+				let background_position = parseInt(wall.style.backgroundPositionX);
+				let gobelin_positionY = parseInt(gobelin.style.top);
+				wall.style.backgroundPositionX = (background_position-2) +"px";
+				falling(gobelin_positionY);
+				is_goblin_dead(gobelin_positionY);
+			}else{
+				show_message_death();
+				death_timer = setInterval(death_animation, 10);
+			}
+		}
+		function recommencer() {
+			location.reload(); 
+		}
+	</script>
+</html>
+		

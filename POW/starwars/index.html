@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>La guerre des étoiles</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=500, initial-scale=1">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="onglet1">
+			<h1>STAR WARS</h1>
+			<span>Choisissez votre camps</span><br/>
+			<select id="side">
+				<option value="empire">L'Empire</option>
+				<option value="rebel">Les Rebelles</option>
+			</select><br/>
+			<span>Nombre de vaisseau mère (0-4)</span><br/>
+			<input type="range" id="starships" min="0" max="4"/><br/>
+			<span>Nombre de vaisseau de combat (0-10)</span><br/>
+			<input type="range" id="ships" min="0" max="10"/><br/>
+			<span>Nombre de combattants (0-100)</span><br/>
+			<input type="range" id="troopers" min="0" max="100"/><br/>
+			<span>Commandant</span>
+			<input type="checkbox" id="commander"/><br/><br/>
+			<input type="button" value="Commencer" onclick="start()"/>
+      <input type="button" value="Commencer la guerre" onclick="startWar()"/>
+        </div>
+		<div id="onglet2">
+			<h1>Votre armée</h1>
+			<div id="votrearmee"></div>
+      <h1>armée de l'ordi</h1>
+			<div id="armeeordi"></div>
+		</div>
+    </body>
+    <script>
+    function start(value){
+      document.getElementById("votrearmee").innerHTML ='';
+      document.getElementById("armeeordi").innerHTML ='';
+      var army = [
+        ["starship", 0],
+        ["ship", 0],
+        ["trooper", 0]
+      ];
+      var faction = document.getElementById('side').value;
+      var commander = document.getElementById('commander').checked;
+      army[0][1] = document.getElementById('starships').value;
+      army[1][1] = document.getElementById('ships').value;
+      army[2][1]= document.getElementById('troopers').value;
+
+      if (commander == true) {
+        addImg(faction, "commander.png", 1);
+      }
+      for (var i = 0; i < army.length; i++) {
+        addImg(faction, army[i][0]+".png", army[i][1]);
+      }
+    }
+    function addImg(faction, image, number){
+      var ordiFaction;
+      if (faction == "rebel") {
+        ordiFaction = "empire";
+      }else{
+        ordiFaction = "rebel";
+      }
+      for (var i = 0; i < number; i++) {
+        document.getElementById("votrearmee").innerHTML +='<img src="img/'+ faction + image +'"  />';
+        document.getElementById("armeeordi").innerHTML +='<img src="img/'+ ordiFaction + image +'"  />';
+      }
+    }
+    function startWar(){
+      if (votrearmee.hasChildNodes()) {
+        var playerArmy = votrearmee.childNodes;
+        var IAArmy = armeeordi.childNodes;
+        while (playerArmy.length > 0 || IAArmy.length > 0) {
+          var playerRND = Math.floor(Math.random() * playerArmy.length);
+          var IARND = Math.floor(Math.random() * IAArmy.length);
+          //selection des unité qui vont combattre.
+          IAArmy[IARND].className='selected';
+          playerArmy[playerRND].className='selected';
+
+          
+        }
+      }
+    }
+    </script>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<title>Superman</title>	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=500, initial-scale=1">
+	<style>
+		body{
+			background-color:lightblue;
+			overflow: hidden;
+		}
+	
+		#superman{
+			left:-180px; 
+			top:250px; 
+			width:200px; 
+			height:75px; 
+			position:absolute;		
+		}	
+		
+		#vitesse{
+			width: 300px;
+		}
+	</style>
+  </head>
+  <body onkeypress="presser(event)" id="body">	
+	<img src="superman.png" id="superman" onmousedown="inverse()"/>       		
+	<img src="reactor.png" id="reactor"/>       		
+	<p>Vitesse<br/><input onchange="changevitesse(this.value)" value="5" type="range" min="1" max="10" id="vitesse"/></p>
+	<div id="flightZone"></div>
+	</body>
+	
+	<script src="code.js" type="text/javascript"></script>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\Administrateur\Documents\testBDD\testBDD\bin\Debug\TestBD.mdf
+C:\Users\Administrateur\Documents\testBDD\testBDD\bin\Debug\TestBD_log.ldf
+C:\Users\Administrateur\Documents\testBDD\testBDD\bin\Debug\testBDD.exe.config
+C:\Users\Administrateur\Documents\testBDD\testBDD\bin\Debug\testBDD.exe
+C:\Users\Administrateur\Documents\testBDD\testBDD\bin\Debug\testBDD.pdb
+C:\Users\Administrateur\Documents\testBDD\testBDD\obj\Debug\testBDD.csprojAssemblyReference.cache
+C:\Users\Administrateur\Documents\testBDD\testBDD\obj\Debug\testBDD.Form1.resources
+C:\Users\Administrateur\Documents\testBDD\testBDD\obj\Debug\testBDD.Properties.Resources.resources
+C:\Users\Administrateur\Documents\testBDD\testBDD\obj\Debug\testBDD.csproj.GenerateResource.cache
+C:\Users\Administrateur\Documents\testBDD\testBDD\obj\Debug\testBDD.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\testBDD\testBDD\obj\Debug\testBDD.exe
+C:\Users\Administrateur\Documents\testBDD\testBDD\obj\Debug\testBDD.pdb

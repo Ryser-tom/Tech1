@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Publicité</title>
+		<meta charset="utf-8">
+		<style>
+			body{
+				width: 820px;
+				margin: auto;
+				margin-top: 50px;
+			}
+
+			#pub{
+				width: 800px;
+				height: 250px;
+				border: 5px solid black;
+				position: relative;
+				overflow: hidden;
+			}
+
+			#pub1, #pub2{
+				z-index: 1;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				width: 800px;
+				height: 250px;
+				background-repeat: no-repeat;
+			}
+
+			#pub2{
+				z-index : 2;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="pub">
+			<div id="pub1">
+			</div>
+			<div id="pub2">
+			</div>
+		</div>
+		<input type="button" value="Changer" onclick="change()"/>
+		<input type="button" value="Timer ON" id="boutonTimer" onclick="timer()"/>
+	</body>
+	<script>
+	var pubActual = 0;
+	var x = 800;
+	var pub = ["facebook.png", "ikea.png", "laposte.png", "microspot.png",	"mystore.png", "youtube.png"];
+		function change(){
+			if (pubActual != 5) {
+				pubActual++;
+			}else{
+				pubActual = 0;
+			}
+			document.getElementById("pub1").style.backgroundImage="url("+pub[pubActual]+")";
+		}
+
+		function timer(){
+			var elem = document.getElementById("boutonTimer");
+    	if (elem.value=="Timer ON") {
+				elem.value = "Timer OFF";
+				sliderTimer = setTimeout(slider, 10)
+
+			}else{
+				elem.value = "Timer ON";
+				clearTimeout(sliderTimer)
+			}
+		}
+
+		function slider(){
+			sliderTimer = setTimeout(slider, 10)
+			if (pubActual != 5) {
+				pubActual++;
+			}else{
+				pubActual = 0;
+			}
+			document.getElementById("pub1").style.backgroundImage="url("+pub[pubActual]+")";
+			x--;
+
+
+		}
+	</script>
+</html>

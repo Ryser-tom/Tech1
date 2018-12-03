@@ -1,0 +1,13 @@
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\bin\Debug\MatrixMultiplication.exe
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\bin\Debug\MatrixMultiplication.pdb
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\MatrixMultiplication.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\App.g.cs
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\MatrixMultiplication_MarkupCompile.cache
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\MatrixMultiplication.g.resources
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\MatrixMultiplication.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\MatrixMultiplication.csproj.GenerateResource.cache
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\MatrixMultiplication.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\MatrixMultiplication.exe
+C:\Users\Administrateur\Desktop\pooException\exception_ex2\Starter\MatrixMultiplication\obj\x86\Debug\MatrixMultiplication.pdb

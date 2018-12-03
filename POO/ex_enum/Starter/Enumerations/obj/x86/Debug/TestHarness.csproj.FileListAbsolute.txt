@@ -1,0 +1,16 @@
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\TestHarness.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\App.g.cs
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\Enumerations_MarkupCompile.cache
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\Enumerations.g.resources
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\Enumerations.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\TestHarness.csproj.GenerateResource.cache
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\TestHarness.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\bin\Debug\Enumerations.exe
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\bin\Debug\Enumerations.pdb
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\bin\Debug\StressTest.dll
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\bin\Debug\StressTest.pdb
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\TestHarness.csproj.CopyComplete
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\Enumerations.exe
+C:\Users\Administrateur\Desktop\ex_enum\Starter\Enumerations\obj\x86\Debug\Enumerations.pdb

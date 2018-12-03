@@ -1,0 +1,57 @@
+C:\Users\ryser\source\repos\TPIV2\TPIV2\bin\Debug\SubjectBD.mdf
+C:\Users\ryser\source\repos\TPIV2\TPIV2\bin\Debug\SubjectBD_log.ldf
+C:\Users\ryser\source\repos\TPIV2\TPIV2\bin\Debug\TPIV2.exe.config
+C:\Users\ryser\source\repos\TPIV2\TPIV2\bin\Debug\TPIV2.exe
+C:\Users\ryser\source\repos\TPIV2\TPIV2\bin\Debug\TPIV2.pdb
+C:\Users\ryser\source\repos\TPIV2\TPIV2\obj\Debug\TPIV2.csprojAssemblyReference.cache
+C:\Users\ryser\source\repos\TPIV2\TPIV2\obj\Debug\TPIV2.Properties.Resources.resources
+C:\Users\ryser\source\repos\TPIV2\TPIV2\obj\Debug\TPIV2.csproj.GenerateResource.cache
+C:\Users\ryser\source\repos\TPIV2\TPIV2\obj\Debug\TPIV2.csproj.CoreCompileInputs.cache
+C:\Users\ryser\source\repos\TPIV2\TPIV2\obj\Debug\TPIV2.exe
+C:\Users\ryser\source\repos\TPIV2\TPIV2\obj\Debug\TPIV2.pdb
+C:\Users\ryser\source\repos\TPIV2\TPIV2\obj\Debug\TPIV2.vue.resources
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\obj\Debug\TPIV2.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\obj\Debug\TPIV2.vue.resources
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\obj\Debug\TPIV2.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\obj\Debug\TPIV2.csproj.GenerateResource.cache
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\obj\Debug\TPIV2.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\obj\Debug\TPIV2.exe
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\obj\Debug\TPIV2.pdb
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\bin\Debug\SubjectBD.mdf
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\bin\Debug\SubjectBD_log.ldf
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\bin\Debug\TPIV2.exe.config
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\bin\Debug\TPIV2.exe
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\TPIV2\bin\Debug\TPIV2.pdb
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\bin\Debug\SubjectBD.mdf
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\bin\Debug\SubjectBD_log.ldf
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\bin\Debug\TPIV2.exe.config
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\bin\Debug\TPIV2.exe
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\bin\Debug\TPIV2.pdb
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.vue.resources
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.Teacher.resources
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.csproj.GenerateResource.cache
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.exe
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.pdb
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.Student.resources
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.Subject.resources
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\bin\Debug\SubjectBD.mdf
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\bin\Debug\SubjectBD_log.ldf
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\bin\Debug\TPIV2.exe.config
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\bin\Debug\TPIV2.exe
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\bin\Debug\TPIV2.pdb
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\obj\Debug\TPIV2.csprojAssemblyReference.cache
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\obj\Debug\TPIV2.vue.resources
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\obj\Debug\TPIV2.Properties.Resources.resources
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\obj\Debug\TPIV2.Student.resources
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\obj\Debug\TPIV2.Subject.resources
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\obj\Debug\TPIV2.Teacher.resources
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\obj\Debug\TPIV2.csproj.GenerateResource.cache
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\obj\Debug\TPIV2.csproj.CoreCompileInputs.cache
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\obj\Debug\TPIV2.exe
+C:\Users\ryser\Desktop\TPIV2 (1)\TPIV2\TPIV2\obj\Debug\TPIV2.pdb
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\bin\Debug\EPPlus.dll
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\bin\Debug\EPPlus.xml
+C:\Users\Administrateur\Desktop\TPIV2\TPIV2\obj\Debug\TPIV2.csproj.CopyComplete

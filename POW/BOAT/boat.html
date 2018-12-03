@@ -1,0 +1,150 @@
+<!-- 
+    RYSER Tom
+    BOAT
+    examen 26.10.2018
+ -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Boat</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body{
+				width: 1024;
+				height: 768;
+				margin: auto;
+				background: url('sky.png') center center fixed;
+				background-size: cover; /* le fond d'écran s'ajuste à la taille du navigateur */
+				overflow: hidden; /* évite d'avoir les barres autour du navigateur */
+				user-select: none; /* désactive le highlight des images quand on clique sur l'écran */
+			}
+			#bateau{
+				height: 60px;
+				width: 200px;
+				position: absolute;
+				left: 380px;
+				top: 560px;
+				background-image: url("boat.png");
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				overflow: visible;
+			}
+			#eclaboussures{
+				height: 60px;
+				width: 200px;
+				position: absolute;
+				left: 0px;
+				top: 0px;				
+				z-index: 10;
+				overflow: visible;
+			}
+			#eclaboussures>div{
+				background: radial-gradient(white 20%, transparent 50%);
+				border-radius: 100px;	
+				position: absolute;
+			}
+			#nuages{
+				height: 548px;
+				width: 1024px;
+				background-image: url("clouds.png");
+				background-size: 100% 100%;
+				z-index : -10;
+			}
+			#vagues{
+				height: 230px;
+				width: 1024px;
+				background-image: url("waves.gif");
+				background-size: 100% 100%;
+				z-index : -5;
+			}				
+			#overlay{
+				position: relative;
+				top: -10px;
+				height: 240px;
+				width: 1024px;
+				z-index : 0;
+				opacity: 1;
+				background: linear-gradient(transparent 1%, white 2%, transparent 12%, blue);
+			}
+		</style>
+	</head>
+	<body id="corps" onkeydown="move(event.keyCode)">	
+		<div id="nuages"></div>
+		<div id="bateau"><div id="eclaboussures"></div></div>
+		<div id="vagues"><div id="overlay"></div></div>		
+		<div id="debug" style="display: none; border: 1px solid black; width: 600px; height: 150px; margin: 10px;"><input type="range" min="1" max="300" value="10" id="vit" onchange="vitesseSim()" onkeydown="return false"/><p id="debugline"></p></div>		
+	</body>		
+	<script>
+        let X = 0;
+        let speed = 0;
+        let posx = 120;
+        let posy = 50;
+        let count = 4;
+        bateau.posy = bateau.offsetTop
+        nuages.style.backgroundPositionX = 5 + "px"
+        vagues.style.backgroundPositionX = 5 + "px"
+
+        let timer = setInterval(animationBoat, 10);
+        function animationBoat() {
+            X++;
+            let movement = bateau.posy + Math.sin(X/20)*20;
+            bateau.style.top = movement + "px";
+            console.log(parseFloat(bateau.posy));
+
+            let nuage_position = parseInt(nuages.style.backgroundPositionX);
+			let vague_position = parseInt(vagues.style.backgroundPositionX);
+			nuages.style.backgroundPositionX = (nuage_position-speed) +"px";
+            vagues.style.backgroundPositionX = (vague_position-speed) +"px";
+            if (speed >0) {
+                speed = speed -0.01
+            }else if(speed < 0){
+                speed = 0;
+            }
+
+            // Genère la fumée faite de div rond avec une opacité changeante
+                let d = document.createElement("div");
+                d.style.width = "10px";
+                d.style.height = "10px";
+                d.opacite = 0.3;
+                d.hauteur = posy;
+                d.gauche = posx;
+                d.taille = 0.2;
+                d.style.backgroundColor = "rgba(128,128,128,"+d.opacite+")";
+                d.style.left = d.gauche+"px";
+                d.style.top = d.hauteur+"px";
+                d.style.borderRadius = "50px";
+                eclaboussures.appendChild(d);
+            // Parcours les enfants du div "eclaboussures" et les déplace vers le haut gauche de l'écran en réduisant l'opacité et en augmentant la taille
+			for (let i = 0; i < eclaboussures.children.length; i++) {
+				eclaboussures.children[i].opacite -= 0.007;
+				eclaboussures.children[i].gauche -= 2 + (speed/2) ;
+				eclaboussures.children[i].taille += 0.05;
+				eclaboussures.children[i].style.transform = "scale("+eclaboussures.children[i].taille+","+eclaboussures.children[i].taille+")";
+				eclaboussures.children[i].style.backgroundColor = "rgba(128,128,128,"+eclaboussures.children[i].opacite+")";
+				eclaboussures.children[i].style.left = eclaboussures.children[i].gauche+"px";
+				eclaboussures.children[i].style.top = eclaboussures.children[i].hauteur+"px";
+				if (eclaboussures.children[i].opacite < 0.05)
+					eclaboussures.removeChild(eclaboussures.children[i]);
+			}	
+
+        }
+        function move(key) {
+            switch (key) {
+                case 37://ARROW LEFT
+                    speed = speed - 0.06;
+                    if (speed <= 0) {
+                        speed = 0;
+                    }
+					break;
+				case 39://ARROW RIGHT
+                    if (speed <=20) {
+                    speed = speed + 0.06;
+                    }
+					break;
+                default:
+                    break;
+            }
+        }
+    </script>
+</html>
+		

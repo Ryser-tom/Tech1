@@ -1,0 +1,46 @@
+#onglet1 {
+	padding-top: 20px;
+    width: 500px;
+    margin: auto;
+	font-family: Calibri, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: white;
+}
+
+#onglet2 {
+	padding-top: 20px;
+    width: 1500px;
+    margin: auto;
+	font-family: Calibri, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	border-style: none;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+}
+
+a:hover {
+	color: yellow;
+}
+#votrearmee, #title1{
+	width: 500px;
+	float:left;
+}
+#armeeordi, #title2{
+	width: 500px;
+	float : right
+}
+.selected{
+	border-style: solid;
+	border-color: red;
+}
