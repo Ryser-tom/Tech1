@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NHibernateP2"
+                   namespace="NHibernateP2.map">
+  <class name="tbl_address">
+    <id name="id" column="Id_Address" type="int">
+      <generator class="identity"/>
+    </id>
+    <property name="valid_from" column="Dt_Valid_From" type="DateTime"/>
+    <property name="valid_to" column="Dt_ValidTo" type="DateTime"/>
+    <property name="street_nr" column="Txt_Street_Nr" type="String"/>
+    <property name="street" column="Txt_Street" type="String"/>
+    <property name="postal_code" column="Txt_Postal" type="String"/>
+    <property name="location" column="Nm_Location" type="String"/>
+    <property name="country" column="Cd_Country" type="String"/>
+    <property name="athlete" column="Id_Athlete" type="Int"/>
+  </class>
+</hibernate-mapping>

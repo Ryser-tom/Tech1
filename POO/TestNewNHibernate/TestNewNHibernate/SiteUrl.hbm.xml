@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="TestNewNHibernate.SiteUrl, TestNewNHibernate" table="siteurl">
+    <id name="UrlId" column="id" type="int">
+      <generator class="native"></generator>
+    </id>
+    <property name="Url" column="url" type="String" />
+    <many-to-one name="Site" class="TestNewNHibernate.Site" column="id_site" cascade="all" />
+  </class>
+</hibernate-mapping>
