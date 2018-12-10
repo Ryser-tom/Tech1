@@ -11,7 +11,7 @@ using NHibernate.Driver;
 
 namespace NhibernateP2
 {
-    class model
+    public class model
     {
         public string Test()
         {
@@ -31,6 +31,10 @@ namespace NhibernateP2
 
                 return ex.Message;
             }
+        }
+        public int Addition(int a, int b)
+        {
+            return a + b;
         }
     }
 }
