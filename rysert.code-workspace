@@ -1,0 +1,6 @@
+{
+    "folders": [{
+        "uri": "sftp://root:Super@10.5.50.82/home/rysert",
+        "name": "RYSERT - CONTAINER"
+    }]
+}

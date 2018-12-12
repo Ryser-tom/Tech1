@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NhibernateP2"
+                   namespace="NhibernateP2">
+  <class name="NhibernateP2.Result, NhibernateP2" table="tbl_Result">
+    <id name="id" column="Id_Result" type="int">
+      <generator class="identity"/>
+    </id>
+    <property name="valid_from" column="Dttm_Registration" type="DateTime"/>
+    <property name="valid_to" column="Tm_Start" type="DateTime"/>
+    <property name="street_nr" column="Tm_Finish" type="DateTime"/>
+    <property name="street" column="Tm_Gun_Start" type="DateTime"/>
+    <property name="postal_code" column="Drn_In_Sec" type="Decimal"/>
+  </class>
+</hibernate-mapping>

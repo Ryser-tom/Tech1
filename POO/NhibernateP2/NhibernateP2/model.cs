@@ -16,16 +16,15 @@ namespace NhibernateP2
         public string Test()
         {
             try {
-
-                IList<map.Address> addresses;
+                IList<Address> addresses;
                 ISessionFactory factory = new NHibernate.Cfg.Configuration().Configure().BuildSessionFactory();
                 using (ISession session = factory.OpenSession()) {
-                    addresses = session.QueryOver<map.Address>().Where(x => x.Id > 1).List();
+                    addresses = session.QueryOver<Address>().Where(x => x.id > 1).List();
                     session.Close();
                 }
                 factory.Close();
 
-                return addresses[0].Street.ToString();
+                return addresses[0].street.ToString();
 
             } catch (Exception ex) {
 

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NhibernateP2"
+                   namespace="NhibernateP2">
+  <class name="NhibernateP2.Address, NhibernateP2" table="tbl_address">
+    <id name="id" column="Id_Address" type="int">
+      <generator class="identity"/>
+    </id>
+    <property name="name" column="Nm_Race" type="String"/>
+    <property name="date" column="Dttm_Race" type="DateTime"/>
+    <property name="distance" column="Dist_In_Km" type="Decimal"/>
+    <property name="location" column="Nm_Location" type="String"/>
+    <property name="location" column="Id_Country" type="int"/>
+  </class>
+</hibernate-mapping>

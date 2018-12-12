@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NhibernateP2"
+                   namespace="NhibernateP2">
+  <class name="NhibernateP2.Athlete, NhibernateP2" table="tbl_athlete">
+    <id name="id" column="Id_Athlete" type="int">
+      <generator class="identity"/>
+    </id>
+    <property name="first" column="Nm_First" type="String"/>
+    <property name="last" column="Nm_Last" type="String"/>
+    <property name="birth" column="Dt_Birth" type="DateTime"/>
+    <property name="pass_hash" column="Txt_Password_Hash" type="String"/>
+    <property name="pass_salt" column="Txt_Password_Salt" type="String"/>
+    <property name="pass_hash_algo" column="Cd_Password_Hash_Algo" type="String"/>
+    <property name="deleted" column="Is_Deleted" type="String"/>
+  </class>
+</hibernate-mapping>
