@@ -4,14 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NhibernateP2.Classes
+namespace NhibernateP2
 {
-    class Email
+    public class Email
     {
+
         public virtual int Id { get; set; }
         public virtual string EmailText { get; set; }
         public virtual string Challenge { get; set; }
         public virtual int Verified { get; set; }
-        //public virtual int Id_Athlete { get; set; }
+        public virtual Athlete AthleteOfEmail { get; set; }
+
+        public Email()
+        {
+        }
     }
 }

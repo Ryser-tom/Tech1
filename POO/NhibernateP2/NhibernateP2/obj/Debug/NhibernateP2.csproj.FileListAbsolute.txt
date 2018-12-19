@@ -42,3 +42,4 @@ C:\Users\ryser\Documents\GitHub\Tech1\POO\NhibernateP2\NhibernateP2\obj\Debug\Nh
 C:\Users\ryser\Documents\GitHub\Tech1\POO\NhibernateP2\NhibernateP2\obj\Debug\NhibernateP2.csproj.CopyComplete
 C:\Users\ryser\Documents\GitHub\Tech1\POO\NhibernateP2\NhibernateP2\obj\Debug\NhibernateP2.exe
 C:\Users\ryser\Documents\GitHub\Tech1\POO\NhibernateP2\NhibernateP2\obj\Debug\NhibernateP2.pdb
+C:\Users\Administrateur\Documents\GitHub\Tech1\POO\NhibernateP2\NhibernateP2\obj\Debug\NhibernateP2.Update.resources

@@ -9,5 +9,6 @@
     <property name="EmailText" column="Txt_Email" type="string" ></property>
     <property name="Challenge" column="Txt_Challenge" type="string"></property>
     <property name="Verified" column="Is_Verified" type="int"></property>
+    <many-to-one name = "AthleteOfEmail" column = "Id_Athlete" class="Athlete" not-null="true"/>
   </class>
 </hibernate-mapping>

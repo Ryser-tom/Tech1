@@ -15,7 +15,8 @@
 
     <!-- mapping files -->
     <mapping resource="NhibernateP2.Mapping.Address.hbm.xml" assembly="NhibernateP2" />
-    <mapping resource="NhibernateP2.Mapping.Nationality.hbm.xml" assembly="NhibernateP2" />
+    <mapping resource="NhibernateP2.Mapping.Email.hbm.xml" assembly="NhibernateP2" />
+    <mapping resource="NhibernateP2.Mapping.Athlete.hbm.xml" assembly="NhibernateP2" />
     
     
   </session-factory>

@@ -6,12 +6,16 @@
     <id name="id" column="Id_Athlete" type="int">
       <generator class="identity"/>
     </id>
+    <set name = "email" cascade="all">
+      <key column = "Id_Athlete"/>
+      <one-to-many class="Email"/>
+    </set>
     <property name="first" column="Nm_First" type="String"/>
     <property name="last" column="Nm_Last" type="String"/>
     <property name="birth" column="Dt_Birth" type="DateTime"/>
     <property name="pass_hash" column="Txt_Password_Hash" type="String"/>
     <property name="pass_salt" column="Txt_Password_Salt" type="String"/>
     <property name="pass_hash_algo" column="Cd_Password_Hash_Algo" type="String"/>
-    <property name="deleted" column="Is_Deleted" type="String"/>
+    <property name="deleted" column="Is_Deleted" type="int"/>
   </class>
 </hibernate-mapping>

@@ -31,9 +31,57 @@ namespace NhibernateP2
                 return ex.Message;
             }
         }
-        public int Addition(int a, int b)
+        public IList<Athlete> GetAthletes()
         {
-            return a + b;
+
+            try {
+                IList<Athlete> Athletes;
+                ISessionFactory factory = new NHibernate.Cfg.Configuration().Configure().BuildSessionFactory();
+                using (ISession session = factory.OpenSession()) {
+                    Athletes = session.QueryOver<Athlete>().Where(x => x.deleted == 0).List();
+                    session.Close();
+                }
+                factory.Close();
+                return Athletes;
+
+            } catch (Exception ex) {
+                throw(ex);
+            }
+        }
+        public IList<Email> GetEmails(Athlete Athlete)
+        {
+
+            try {
+                IList<Email> Emails;
+                ISessionFactory factory = new NHibernate.Cfg.Configuration().Configure().BuildSessionFactory();
+                using (ISession session = factory.OpenSession()) {
+                    Emails = session.QueryOver<Email>().Where(x => x.AthleteOfEmail == Athlete).List();
+                    session.Close();
+                }
+                factory.Close();
+                return Emails;
+
+            } catch (Exception ex) {
+                throw (ex);
+            }
+        }
+        public void DeleteAthlete(Athlete Athlete)
+        {
+            Athlete.deleted = 1;
+            try {
+                ISessionFactory factory = new NHibernate.Cfg.Configuration().Configure().BuildSessionFactory();
+                using (ISession session = factory.OpenSession()) {
+                    using (ITransaction transaction = session.BeginTransaction()) { 
+                        session.Update(Athlete);
+                    transaction.Commit();
+                    session.Close();
+                    }
+                }
+                factory.Close();
+
+            } catch (Exception ex) {
+                throw (ex);
+            }
         }
     }
 }
