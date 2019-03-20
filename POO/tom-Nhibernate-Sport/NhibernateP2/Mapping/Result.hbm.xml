@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="NhibernateP2"
+                   namespace="NhibernateP2">
+  <class name="NhibernateP2.Result, NhibernateP2" table="tbl_Result">
+    
+    <!--composite-id-->
+    <composite-id>
+      <key-many-to-one name="Athlete" class="Athlete" column="Id_Athlete"></key-many-to-one>
+      <key-many-to-one name="Race" class="Race" column="Id_Race"></key-many-to-one>
+    </composite-id>
+
+    <!--properties-->
+    <property name="Registration" column="Dttm_Registration" type="DateTime"/>
+    <property name="Start" column="Tm_Start" type="TimeAsTimeSpan"/>
+    <property name="Finish" column="Tm_Finish" type="TimeAsTimeSpan"/>
+    <property name="Gun_start" column="Tm_Gun_Start" type="TimeAsTimeSpan"/>
+    <property name="Time" column="Drn_In_Sec" type="Decimal"/>
+  
+  </class>
+</hibernate-mapping>

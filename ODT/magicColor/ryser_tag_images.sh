@@ -1,14 +1,12 @@
 #!/bin/bash
 #
 # Script : ryser_tag_images.sh
-# Farenheit to Celsius temperature conversion
+# using imagemagick to write text on all images in active folder using heading to choose the position of the text.
 # Ryser tom T.IS-E1b
-# 04.12.2018
+# 21.12.2018
 
 shopt -s -o nounset
 
-declare AXE_X=X
-declare AXE_Y=Y
 #start of headings declaration
 declare N="North"
 declare E="East"
@@ -16,31 +14,32 @@ declare S="South"
 declare W="West"
 #end
 
-
-declare MAX_PERCENT=100
 declare COLOR=red
 declare SIZE=20
-declare DENSITY=90
 declare DATETIME=$(date +"%T");
-declare MARGIN_WIDTH
 
 declare target
 declare TEXT
-declare POSITION_IN_PERCENT_X=1
-declare POSITION_IN_PERCENT_Y=1
 
- 
+ #syntax for the call of the script
 declare SYNTAX="Please use this syntax : /tag_images.sh {target folder} {text to add in image} {Position in heading [NW]}"
 
+#function to modify an image, adding the choosen text and the time of execution
 function MODIFY_IMAGE {
     declare image="$1"
     declare GRAVITY="$2"
-
+    # "convert" is imagemagick, 
+    #-pointsize is the font size for the text
+    #-gravity is an anchor for the text
+    #-fill is the font color
+    #-annotate is the shift of the text and the text
+    # and last is the target to save file and name
     convert $image -pointsize $SIZE -gravity $GRAVITY -fill $COLOR -annotate +10+10 "$TEXT" $target/$image
     convert $target/$image -pointsize $SIZE -gravity SouthEast -annotate +0+0 "$DATETIME" $target/$image
 
 }
 
+#function that change the last parameter enter when calling the script in a usable format for imagemagick
 function HEADING_CONVERTOR {
     local PARAM=$1
     local PARAM1
@@ -82,10 +81,11 @@ else
     target=$1
     TEXT=$2
     HEADING=$(HEADING_CONVERTOR $3)
-    MARGIN_WIDTH=${#TEXT}
 
+    #create folder if doesn't exist
     [[ -d $target ]] || mkdir $target
 
+    #for each file with .jpg extension
     for file in *.jpg; 
     do 
         MODIFY_IMAGE $file $HEADING
@@ -93,25 +93,3 @@ else
     done
 fi
 
-
-function TMP {
-    local POSITION=$1
-    local MAX_VALUE=$2
-    local DIRECTION=$3
-    local SIZE_TEXT=${#TEXT}
-    local MID_OF_MAX_PERCENT
-    
-    let "MID_OF_MAX_PERCENT = ($MAX_PERCENT/2)"
-    let "POSITION = (($POSITION * $MAX_VALUE) / $MAX_PERCENT)"
-
-    if [[ "$DIRECTION" = "$AXE_X" && $POSITION_IN_PERCENT_X -gt $MID_OF_MAX_PERCENT ]] 
-    then
-        let "POSITION = ($POSITION - ($SIZE_TEXT * $SIZE)/2)"
-
-    elif [[ $POSITION_IN_PERCENT_Y -gt $MID_OF_MAX_PERCENT ]]
-    then
-        let "POSITION = ($POSITION - ($MARGIN_BOTTOM)/2)"
-    fi
-
-    echo "$POSITION"
-}
