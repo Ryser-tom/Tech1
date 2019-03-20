@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{titlepic}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=red,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\title{mangoDB intro}
+\author{tom.rsr }
+\date{December 2018}
+\titlepic{\includegraphics[width=\textwidth]{image/mongodb.jpg}}
+
+\begin{document}
+\begin{titlepage}
+    \maketitle
+    \section{Introduction}
+    dans ce document nous allons parler de comment installer MongoDb, comment créer une base de données, comment l'interroger et modifier les données. Et je donnerais mon opinion sur ce système
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+
+\section{Installation}
+\subsection{télécharger la dernière version de MongoDB (v4.0.4)}
+Pour télécherger MongoDB rendez vous à l'adresse :\\ \url{https://www.mongodb.com/download-center/community}
+Choisissez la dernière version stable (current release)\\ choisissez le type d'installation que vous voulez sous Package (\hyperref[sec:MSI]{MSI} ou \hyperref[sec:ZIP]{ZIP}) et l'opérating système sur lequel vous êtes
+
+\subsection{installer avec MSI}
+\label{sec:MSI}
+quand le téléchargement sera fini ouvrez le fichier .MSI 
+\begin{enumerate}
+\item appuyer sur Next
+\item Accepter les termes et appuyer sur Next
+\item Cliquez sur Complete
+\item cliquez sur la case Installer MonDB as a Service pour la désactiver, puis sur Next
+\item Cliquez sur Complete puis sur Next
+\item Cliquez sur Complete puis sur Next
+\item Cliquez sur Complete puis sur Next
+\end{enumerate}
+\subsection{installer avec ZIP}
+\label{sec:ZIP}
+une fois le téléchargement terminé placer le dossier par exemple sur le bureau, aller dans le dossier puis dans bin et vous pourrez démarrer le serveur en cliquant sur "mongod.exe".
+\section{Création de la base de données}
+\section{exemples }
+\end{document}

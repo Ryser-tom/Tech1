@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+
+% mise en page
+\usepackage[left=3cm, right=3cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{fancyhdr}
+
+\title{Figure 3}
+\author{tom.rsr }
+\date{January 2019}
+
+\begin{document}
+\begin{tikzpicture}
+    \draw[very thin,color=green] (-4,-4) grid (4,4);
+    \draw (0,0) node [circle,inner sep=0pt,draw,fill=green!10,opacity=0.7,text width=2cm, text centered] (center) {Marguerite des $ \nu_\iota $};
+    \foreach \angle in {0,...,10} {
+        \draw (\angle*30:3) node[circle,fill=red!10] (cercle\angle) {$\nu_{\angle} $};
+        \draw [color=blue] (center)--(cercle\angle);
+    }
+\end{tikzpicture}
+\maketitle
+\end{document}

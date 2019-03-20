@@ -1,0 +1,7 @@
+C:\MQ\MQIntergrity\MQIntergrity\bin\Debug\MQIntergrity.exe.config
+C:\MQ\MQIntergrity\MQIntergrity\bin\Debug\MQIntergrity.exe
+C:\MQ\MQIntergrity\MQIntergrity\bin\Debug\MQIntergrity.pdb
+C:\MQ\MQIntergrity\MQIntergrity\obj\Debug\MQIntergrity.csprojAssemblyReference.cache
+C:\MQ\MQIntergrity\MQIntergrity\obj\Debug\MQIntergrity.csproj.CoreCompileInputs.cache
+C:\MQ\MQIntergrity\MQIntergrity\obj\Debug\MQIntergrity.exe
+C:\MQ\MQIntergrity\MQIntergrity\obj\Debug\MQIntergrity.pdb

@@ -1,0 +1,10 @@
+C:\Users\Administrateur\Documents\Visual Studio 2017\Triangle\Triangle\obj\Debug\Triangle.csprojAssemblyReference.cache
+C:\Users\Administrateur\Documents\Visual Studio 2017\Triangle\Triangle\obj\Debug\Triangle.Form1.resources
+C:\Users\Administrateur\Documents\Visual Studio 2017\Triangle\Triangle\obj\Debug\Triangle.Properties.Resources.resources
+C:\Users\Administrateur\Documents\Visual Studio 2017\Triangle\Triangle\obj\Debug\Triangle.csproj.GenerateResource.cache
+C:\Users\Administrateur\Documents\Visual Studio 2017\Triangle\Triangle\obj\Debug\Triangle.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\Visual Studio 2017\Triangle\Triangle\bin\Debug\Triangle.exe.config
+C:\Users\Administrateur\Documents\Visual Studio 2017\Triangle\Triangle\bin\Debug\Triangle.exe
+C:\Users\Administrateur\Documents\Visual Studio 2017\Triangle\Triangle\bin\Debug\Triangle.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2017\Triangle\Triangle\obj\Debug\Triangle.exe
+C:\Users\Administrateur\Documents\Visual Studio 2017\Triangle\Triangle\obj\Debug\Triangle.pdb

@@ -1,0 +1,28 @@
+// FILE: C:/Users/Administrateur/Documents/Visual Studio 2017/fouriere/fouriere//deux_roues.cs
+
+// In this section you can add your own using directives
+    // section -64--88--9-1--24de5ab5:1665c9444a8:-8000:0000000000000869 begin
+    // section -64--88--9-1--24de5ab5:1665c9444a8:-8000:0000000000000869 end
+
+/// <summary>
+    ///  A class that represents ...
+    /// 
+    ///  @see OtherClasses
+    ///  @author your_name_here
+     /// </summary>
+public class deux_roues
+{
+    // Associations
+
+    /// <summary> 
+    /// </summary>
+    public ArrayList  myvehicules;
+
+    /// <summary> 
+    /// </summary>
+    public ArrayList  mymoto;
+
+    /// <summary> 
+    /// </summary>
+    public ArrayList  myvelo;
+} /* end class deux_roues */

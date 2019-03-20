@@ -1,0 +1,10 @@
+C:\Users\Administrateur\Documents\Visual Studio 2017\fouriere\fouriere\bin\Debug\fouriere.exe.config
+C:\Users\Administrateur\Documents\Visual Studio 2017\fouriere\fouriere\bin\Debug\fouriere.exe
+C:\Users\Administrateur\Documents\Visual Studio 2017\fouriere\fouriere\bin\Debug\fouriere.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2017\fouriere\fouriere\obj\Debug\fouriere.csprojAssemblyReference.cache
+C:\Users\Administrateur\Documents\Visual Studio 2017\fouriere\fouriere\obj\Debug\fouriere.Properties.Resources.resources
+C:\Users\Administrateur\Documents\Visual Studio 2017\fouriere\fouriere\obj\Debug\fouriere.csproj.GenerateResource.cache
+C:\Users\Administrateur\Documents\Visual Studio 2017\fouriere\fouriere\obj\Debug\fouriere.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\Visual Studio 2017\fouriere\fouriere\obj\Debug\fouriere.exe
+C:\Users\Administrateur\Documents\Visual Studio 2017\fouriere\fouriere\obj\Debug\fouriere.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2017\fouriere\fouriere\obj\Debug\fouriere.Form1.resources

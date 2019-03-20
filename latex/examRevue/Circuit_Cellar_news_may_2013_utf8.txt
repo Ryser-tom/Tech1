@@ -1,0 +1,35 @@
+CIRCUIT CELLAR NEWS MAY 2013
+
+
+SERIAL DATA ACQUISITION SOFTWARE FOR WINDOWS 7
+The data acquisition and control software suite for Windows 7 (64-and 32-bit), Vista, and XP can be used to read and control up to 10 devices over
+RS-232, RS-422, RS-485, and Modbus. Windmill software includes ready-to-run applications that can be used to chart and log data, control analog and digital outputs,
+monitor the COM port, and send data directly to Excel. The software’s COM port monitoring program, ComDebug, enables you to see all sent and received bytes including
+non-printing characters, such as carriage returns.
+This can be critical when managing binary data. You can control the state of the PC’s serial port output lines and see the state of the input lines. ComDebug sends 16-bit
+two’s complement integers, unsigned integers, single bits of data, and ASCII values to instruments. Windmill software works with instruments communicating with ASCII or binary
+messages. It can collect readings from the majority of serial instruments that can be plugged into the computer’s COM port, including PICs, power meters, digital
+indicators, multimeters, data loggers, GPS receivers, gyro compasses, motion sensors, and laboratory scales. You can mix and match equipment from many different
+manufacturers in many combinations. The software suite costs . The price
+includes lifetime technical support and a money-back guarantee.
+
+Windmill Software Ltd.
+
+www.windmill.co.uk
+
+
+
+WIDE VOLTAGE SERIAL AND PARALLEL F-RAM
+Devices in the are available in serial I2C, SPI, and parallel communication interfaces, with an operating voltage range of 2.7 to 5.5 V.
+Performance enhancements include a 25% to 50% reduction in active current requirements and serial devices with faster power-up initialization.
+The FM24W256 and FM25W256 W-Family memories are available in 256-Kb serial I2C and SPI, respectfully. The 64-Kb FM16W08 and 256-Kb FM18W08
+devices feature a parallel communication interface.
+W-Family products are built on an advanced, ferroelectric process. They offer NoDelay writes, 100-trillion high-endurance read/write cycles, and 38-year data
+retention. The memories are available in industry-standard “green” packaging that includes an eight-pin SOIC for serial devices and a 28-pin SOIC for parallel
+devices. The W-Family is ideal for nonvolatile memory applications that require frequent or rapid writes or low-power operation. W-Family serial SPI devices offer
+full-bus speed writes and can operate over the industrial temperature range of –40°C to 85°C.
+The FM24W256 and FM25W256 memories cost in 10,000- piece quantities. The parallel devices cost for the FM16W08 and for the FM18W08.
+
+Ramtron International Corp.
+
+www.ramtron.com

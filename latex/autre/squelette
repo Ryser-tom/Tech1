@@ -1,0 +1,23 @@
+% Tom RYSER
+% classe de document : article
+% 
+\documentclass[a4paper,12pt]{article}
+
+% règles typographiques françaises
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+
+\title{Neo 4J}
+\author{tom.rsr }
+\date{Janvier 2019}
+
+% mise en page
+\usepackage[left=3cm, right=3cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{fancyhdr}
+
+%%%%%%%%%%%%%%%%%%% FIN DU PREAMBULE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+\end{document}

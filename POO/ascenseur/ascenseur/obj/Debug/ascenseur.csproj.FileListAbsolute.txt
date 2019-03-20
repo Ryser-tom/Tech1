@@ -1,0 +1,10 @@
+C:\Users\Administrateur\Documents\Visual Studio 2017\ascenseur\ascenseur\bin\Debug\ascenseur.exe.config
+C:\Users\Administrateur\Documents\Visual Studio 2017\ascenseur\ascenseur\bin\Debug\ascenseur.exe
+C:\Users\Administrateur\Documents\Visual Studio 2017\ascenseur\ascenseur\bin\Debug\ascenseur.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2017\ascenseur\ascenseur\obj\Debug\ascenseur.csprojAssemblyReference.cache
+C:\Users\Administrateur\Documents\Visual Studio 2017\ascenseur\ascenseur\obj\Debug\ascenseur.Form1.resources
+C:\Users\Administrateur\Documents\Visual Studio 2017\ascenseur\ascenseur\obj\Debug\ascenseur.Properties.Resources.resources
+C:\Users\Administrateur\Documents\Visual Studio 2017\ascenseur\ascenseur\obj\Debug\ascenseur.csproj.GenerateResource.cache
+C:\Users\Administrateur\Documents\Visual Studio 2017\ascenseur\ascenseur\obj\Debug\ascenseur.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Documents\Visual Studio 2017\ascenseur\ascenseur\obj\Debug\ascenseur.exe
+C:\Users\Administrateur\Documents\Visual Studio 2017\ascenseur\ascenseur\obj\Debug\ascenseur.pdb
